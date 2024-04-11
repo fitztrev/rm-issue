@@ -3,12 +3,12 @@ val rmtest = (project in file("."))
     assembly / mainClass := Some("Stream")
     // more settings here ...
   )
-scalaVersion := "3.2.1"
+scalaVersion := "2.13.13"
 
 resolvers += ("snapshots" at "https://oss.sonatype.org/content/repositories/snapshots")
 
 libraryDependencies ++= Seq(
-  "org.reactivemongo" %% "reactivemongo" % "1.1.0-275c4ca-RC7-SNAPSHOT",
+  "org.reactivemongo" %% "reactivemongo" % "1.1.0-RC12",
   "org.reactivemongo" %% "reactivemongo-akkastream" % "1.1.0-RC6",
   "org.slf4j" % "slf4j-api" % "2.0.3"
   /* "org.reactivemongo" % "reactivemongo-shaded-native" % "1.1.0-RC6-linux-x86-64" */
