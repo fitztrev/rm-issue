@@ -24,7 +24,7 @@ Issue: only print 101 or 202 documents.
 Output:
 ```
 |total document inserted: 2000
-|  total result from Secondary Preferred : 101
+|  total result from Secondary Preferred : 0 or 101
 |  total result from Primary Preferred   : 2000
 ```
 
